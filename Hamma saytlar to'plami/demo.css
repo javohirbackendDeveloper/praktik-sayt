@@ -1,0 +1,237 @@
+
+
+
+/* asosiy stylelar */
+
+body{
+    font-family: sans-serif;
+    
+}
+.container{
+    width: 2000px;
+    margin:auto;
+}
+
+ /* Main header styles */
+
+ .main-header__ul{
+    /*pastdagi box shadow  elementga soya beradi*/        
+   position: fixed;          
+   top: 0;         
+   left: 0;
+   width: 100%;
+   background-color: white;
+   box-shadow: 0px 3px 16px 0px;
+ }
+
+ .main-header__brand{
+   display: inline-block;
+   vertical-align: middle;
+}
+
+
+
+
+.main-header__brand img{
+    width: 1800px;
+    height: 600px;
+}
+
+
+.main-navigation{
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-navigation__item{
+    display: inline-block;
+    padding: 10px;
+   
+}
+.main-navigation__item a{
+    color:#05364d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500px;
+}
+.main-navigation__item a:hover {
+    color: red;
+}
+.main-navigation__item.active a{
+  color:red ;
+}
+
+/* main section styles*/
+
+
+
+
+
+
+
+.main-section{
+    padding: 100px 30px;
+  }
+.main-section > div{
+    width: 50%;
+    float: left;
+}
+.main-section__image{
+    width: 400px;
+    height: 800px;
+    text-align: right;
+    border-color: blue;
+    bottom: 8px;
+}
+.main-section__welcome{
+   font-size: 16px;
+   font-weight: 400;
+   margin-bottom:10px;
+   letter-spacing: 2px;
+   color: #797979;
+}
+.main-section__introduction{
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 500px;
+    margin-bottom: 20px;
+}
+.main-section__social-networks{
+    color: #8FA1AA;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 16px;
+    cursor: pointer;
+}
+.main-section__social-networks a:hover{
+   color: darkred;
+}
+.main-section__action{
+    margin-top: 30px;
+    border: none;
+    background-color: blue;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 20px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+ /* statistics section*/
+
+ .statistics {
+    padding-top: 100px;
+ }
+ .statistics__item{
+    background-color: #F8FAFF;
+    text-align: center;
+    padding: 5px 10px;
+ }
+ .statistics__number{
+   color: #5f30ff;
+    margin-bottom: 5px;
+    font-size: 27px;
+ }
+ .statistics__title{
+    font-size: 16px;
+    color: #797979;
+    font-weight: 300;
+ }
+ .containerrr{
+    width: 2000px;
+    margin:0 auto;
+ }
+ 
+ /* About uzb*/
+    
+ 
+ 
+ .about-uzb{
+    padding: 100px 0;
+ }
+ .about-uzb > div{
+    width: 50%;
+    float: left;
+ }
+ .section-subtitle{
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #797979;
+    text-transform: uppercase;
+ }
+   .section-title{
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #05364d;
+
+ }
+ .about-uzb__description{
+    font-size: 14px;
+    font-weight: 300;
+    color: #797979;
+    line-height: 27px;
+ }
+ .button{
+    margin-top: 30px;
+    border: none;
+    background-color: blue;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 20px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+ }
+ .about-uzb__uppercase{
+    margin-top: 40px;
+ }
+ .blur-line{
+    display: inline-block;
+    margin-left: 5px;
+    width: 80px;
+    height: 4px;
+    background-color: pink;
+    filter: blur(4px);
+    border-radius: 4px;
+ }
+ /*service section styles*/
+ .service-card__icon{
+    width: 400px;
+    height:250px;
+ }
+ .service-card__title{
+    color: #05364d;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+ }
+ .service-card__description{
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #797979;
+ }
+ .service-card__link{
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #05364d ;
+ }
+ .service-card:hover{
+    background-color: #5f30ff;
+
+ }
+
+ .service-card:hover .service-card__title,
+ .service-card:hover .service-card__description,
+ .service-card:hover .service-card__link{
+    color: #FFFF;
+ }
+
+
+ 

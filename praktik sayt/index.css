@@ -1,0 +1,211 @@
+body{
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 0;
+}
+
+       /* header qismi*/
+.header-img{
+    width: 100%;
+    height:500px;
+    margin-top: 70px;
+    
+}
+.main-header__section{
+  padding: 10px;
+  position: fixed;
+  background-color: whitesmoke;
+  width: 87.5%;
+  top: 0;
+  height: 50px;
+  text-transform: uppercase;  
+}
+.main-header{
+  text-decoration: none; 
+  color: grey;
+  padding: 15px;
+  margin-top: 0;
+  font-size: 20px;
+}
+.main-header:hover{
+    color: red;
+    
+}
+          /*nav qismi*/
+.main-nav__section{
+    margin-bottom: 30px;
+}
+.main-nav{
+    text-decoration: none;
+    padding: 5px;
+    color: darkcyan;
+    
+
+}
+.main-nav:hover{
+    color: red;
+}
+.main-nav:active{
+      color: darkred;
+}
+       /*section qismi*/
+.main-section__ection{
+    height: 500px;
+    width: 70%;
+    float: left;
+    
+}
+.img-section{
+    width: 100%;
+    height: 500px;
+}
+.elon-img{
+    width: 100%;
+    height:300px;
+    border: 3px solid rgb(193, 21, 21);
+    border-radius: 4px;
+    padding: 10px;
+   
+
+   
+}
+.main-elon{
+    padding-left: 300px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: darkslategray;
+}
+
+        /*action qismi*/
+
+.main-aside__section{
+    
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    height: 500px;
+    margin-top: 77px;
+    width: 25%;
+    top: 0;
+    float:right;
+
+          
+}
+.main-aside__first__text{
+    background-color: rgb(215, 240, 240);
+    width: 100%;
+    height: 300px;
+    overflow: scroll;
+    border: 3px solid #797979;
+    border-radius: 4px;
+}
+.aside-hr{
+    background-color: cadetblue;
+    height: 8px;
+}
+.aside-image{
+   height: 600px;
+   width: 100%;
+   position: sticky;
+   margin-top: 20px;
+   opacity: 0.6;
+   
+}
+.aside-image:hover{
+    opacity: 1;
+}
+
+.aside-form{
+    margin-top: 50px;
+    line-height: 50px;
+   
+}
+
+.aside-label{
+   font-size: 30px; 
+   color: cadetblue;
+}
+.aside-input{
+    width: 80%;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(208, 205, 205);
+}
+.aside-murojaat{
+    background-color: rgb(155, 155, 244);
+    margin-top: 150px;
+    width: 100%;
+    height: 60px;
+    vertical-align: text-top;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    
+}
+
+.aside-text__murojaat{
+    font-size: 35px;
+}
+  i{
+    color: blueviolet;
+    font-size: 50px;
+    padding: 7px;
+   
+}
+i:hover{
+    color: brown;
+}
+.aside-ozi__haqida{
+    background-color: rgb(43, 153, 226);
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+.aside-message{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    background-color: rgb(208, 205, 205);
+    float: right;
+    
+}
+.label-message{
+    font-size: 30px; 
+    color: cadetblue;
+}
+.button{
+    background-color: aqua;
+    color: black;
+    padding: 20px 30px;
+    border-radius: 6px;
+    border-color: blueviolet;
+    margin-top: 10px;
+    margin-bottom: 300px;
+    box-sizing: border-box;
+}
+.button:hover{
+    background-color: blue;
+}
+
+.aside-sticky__reklama{
+    background-image: url(./img/kompyuter\ picture.jpg);
+    height:4100px;
+    color: rgb(246, 14, 22);
+    font-size: 20px;
+}
+
+          /*footer qismi*/
+.main-footer__section{
+    margin-top: 6400px;
+    line-height: 100px;
+    width: 100%;
+    float: left;
+}
+.footer-first__img{
+    width: 100%;
+    height: 400px;
+}
+
+.footer-back{
+    text-align: center;
+    margin-top: 10px;
+}
